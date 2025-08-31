@@ -3,7 +3,7 @@ pipeline {
   environment {
     AWS_REGION = "us-east-1"
     AWS_ACCOUNT_ID = "279427096273"
-    ECR_REGISTRY = "279427096273.dkr.ecr.us-east-1.amazonaws.com/java-eks-app"
+    ECR_REGISTRY = "279427096273.dkr.ecr.us-east-1.amazonaws.com"
     IMAGE_NAME = "java-eks-app"
   }
   stages {
